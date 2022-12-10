@@ -140,3 +140,86 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+
+.main-currency_table, .main-commissions_table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.main-currency_table .currency-table_title, 
+.main-commissions_table .commissions-table_title {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+
+.main-commissions_table .commissions-table_title {
+    color: var(--secondary-blue);
+}
+
+.currency-table_container, .commissions-table_container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.currency-table_container table, .commissions-table_container table {
+    width: 100%;
+    height: 100%;
+}
+
+.currency-table_container td, .commissions-table_container td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.currency-table_container .table-top_left, 
+.commissions-table_container .table-top_left {
+    border-radius: 15px 0 0 0;
+}
+
+.currency-table_container .table-top_right, 
+.commissions-table_container .table-top_right {
+    border-radius: 0 15px 0 0;
+}
+
+.currency-table_container .table-bottom_left, 
+.commissions-table_container .table-bottom_left {
+    border-radius: 0 0 0 15px;
+}
+
+.currency-table_container .table-bottom_right, 
+.commissions-table_container .table-bottom_right {
+    border-radius: 0 0 15px 0;
+}
+
+.currency-table_container .table-right, 
+.commissions-table_container .table-right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.currency-table_container .down {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/trending-down.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
