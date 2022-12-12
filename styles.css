@@ -317,49 +317,32 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-detail_card .clock {
+.product-detail_card .icon-card {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock {
     background-image: url('./assets/icons/clock.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.product-detail_card .eye {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.eye {
     background-image: url('./assets/icons/eye.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.product-detail_card .dollar {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.dollar {
     background-image: url('./assets/icons/dollar-sign.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.product-detail_card .check {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+.check {
     background-image: url('./assets/icons/check-circle.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
+
 
 .product-card_title {
     margin-bottom: 15px;
